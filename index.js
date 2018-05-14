@@ -99,7 +99,7 @@ function placeOrder(cardNumber) {
   } else {
     //https://www.w3schools.com/js/js_strings.asp
     // backslash escape character turns special characters into string
-    console.log('Sorry, we don\'t have a credit card on file for you.')
-    return('Sorry, we don\'t have a credit card on file for you.')
+    console.log('Sorry, we don\'t have a credit card on file for you.');
+    return('Sorry, we don\'t have a credit card on file for you.');
   }
 }
