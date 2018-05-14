@@ -50,6 +50,8 @@ function viewCart() {
     //https://stackoverflow.com/questions/11922383/access-process-nested-objects-arrays-or-json
     // accessing nested data structures
     return(inCart + `${cart[0]['itemName']} at $${cart[0]['itemPrice']}.`);
+  } else if (cart.length === 2){
+    
   }
 }
 
