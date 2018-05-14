@@ -62,6 +62,12 @@ function viewCart() {
   
 function total() {
   // write your code here
+  var pricePerItem = [];
+  var totalPrice = 0;
+  
+  for (var i = 0; i < cart.length; i++){
+    pricePerItem.push()
+  }
 }
 
 function removeFromCart(item) {
