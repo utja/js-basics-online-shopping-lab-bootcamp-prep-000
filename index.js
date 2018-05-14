@@ -95,6 +95,7 @@ function placeOrder(cardNumber) {
     var x = (`Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`);
     for (var i = cart.length; i >= 0; i--) {
       cart.pop();
+    return x
     }
   } else {
     //https://www.w3schools.com/js/js_strings.asp
