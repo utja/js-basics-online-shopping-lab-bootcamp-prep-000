@@ -45,7 +45,16 @@ function viewCart() {
   if (cart.length === 0 ) {
     console.log('Your shopping cart is empty.');
     return('Your shopping cart is empty.');
-  } else if (cart.length === 1){
+  } else {
+    for (var i = 0; i < cart.length-1; i++) {
+      cartItems.push(`${cart[i]['itemName']} at $${cart[i]['itemPrice']}`)
+    }
+      var printMessage = inCart + `${cartItems}, and ${cart[cart.length-1]['itemName']} at $${cart[cart.length-1]['itemPrice']}.`
+      console.log(printMessage)
+  }
+}
+  
+  /*else if (cart.length === 1){
     console.log(inCart + `${cart[0]['itemName']} at $${cart[0]['itemPrice']}.`);
     //https://stackoverflow.com/questions/11922383/access-process-nested-objects-arrays-or-json
     // accessing nested data structures
@@ -53,7 +62,7 @@ function viewCart() {
   } else if (cart.length === 2){
     
   }
-}
+}*/
 
 function total() {
   // write your code here
