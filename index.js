@@ -96,6 +96,8 @@ function placeOrder(cardNumber) {
       cart.pop();
     }
   } else {
+    //https://www.w3schools.com/js/js_strings.asp
+    // b
     console.log('Sorry, we don\'t have a credit card on file for you.')
   }
 }
