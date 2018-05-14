@@ -97,7 +97,7 @@ function placeOrder(cardNumber) {
     }
   } else {
     //https://www.w3schools.com/js/js_strings.asp
-    // b
+    // backslash escape character turns 
     console.log('Sorry, we don\'t have a credit card on file for you.')
   }
 }
