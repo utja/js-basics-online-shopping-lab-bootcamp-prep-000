@@ -78,6 +78,13 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
+  ////https://stackoverflow.com/questions/9396569/javascript-what-is-property-in-hasownproperty
+  for (var i = 0; i < cart.length; i++){
+    if(cart[i].hasOwnProperty(item)){
+      cart.splice(i,1)
+      return cart
+    })
+  }
   
 }
 
