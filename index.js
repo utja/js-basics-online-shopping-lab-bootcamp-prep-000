@@ -60,16 +60,6 @@ function viewCart() {
   }
 }
   
-  else if (cart.length === 1){
-    console.log(inCart + `${cart[0]['itemName']} at $${cart[0]['itemPrice']}.`);
-    //https://stackoverflow.com/questions/11922383/access-process-nested-objects-arrays-or-json
-    // accessing nested data structures
-    return(inCart + `${cart[0]['itemName']} at $${cart[0]['itemPrice']}.`);
-  } else if (cart.length === 2){
-    
-  }
-}
-
 function total() {
   // write your code here
 }
