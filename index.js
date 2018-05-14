@@ -72,6 +72,8 @@ function total() {
   for (var j = 0; j < cart.length; j++) {
     totalPrice = pricePerItem[j]+=totalPrice
   }
+  console.log(totalPrice)
+  return(totalPrice)
 }
 
 function removeFromCart(item) {
