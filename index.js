@@ -33,7 +33,7 @@ function addToCart(item) {
  itemObject[name] = listPrice(price);
  */
  cart.push(item1);
- return console.log(`${item} has been added to your cart.`);
+ return (`${item} has been added to your cart.`);
 }
 
 function viewCart() {
