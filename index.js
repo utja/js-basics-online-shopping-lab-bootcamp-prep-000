@@ -51,6 +51,7 @@ function viewCart() {
     }
       var printMessage = inCart + `${cartItems}, and ${cart[cart.length-1]['itemName']} at $${cart[cart.length-1]['itemPrice']}.`
       console.log(printMessage)
+      return(printMessage)
   }
 }
   
