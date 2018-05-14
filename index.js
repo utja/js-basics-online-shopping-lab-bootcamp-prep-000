@@ -1,6 +1,7 @@
 var cart = [];
 
 function getRandomInt(min,max) {
+  // 1-100 --> [0-1) * (100) + 1
   return Math.floor(Math.random() * (max-min+1)) + min;
 }
 
