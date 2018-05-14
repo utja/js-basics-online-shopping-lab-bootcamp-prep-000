@@ -67,7 +67,10 @@ function total() {
   
   for (var i = 0; i < cart.length; i++){
   var eachPrice = cart[i]['itemPrice']
-    pricePerItem.psuh(eachPrice)
+    pricePerItem.push(eachPrice)
+  }
+  for (var j = 0; j < cart.length; j++) {
+    totalPrice = pricePerItem[j]+=totalPrice
   }
 }
 
