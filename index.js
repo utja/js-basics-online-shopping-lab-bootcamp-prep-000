@@ -40,9 +40,9 @@ function viewCart() {
   // write your code here
   var cartItems = [];
   var inCart = 'In your cart, you have '
-  if (cartItems.length === 0 ) {
+  if (cart.length === 0 ) {
     console.log('Your shopping cart is empty.')
-  } else if (cart.lenth === 1){
+  } else if (cart.length === 1){
     console.log(inCart + `${Object.keys(cart[0])} at ${Object.keys(cart[0])}.`);
   }
 }
