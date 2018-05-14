@@ -66,7 +66,7 @@ function total() {
   var totalPrice = 0;
   
   for (var i = 0; i < cart.length; i++){
-    pricePerItem.push()
+    
   }
 }
 
