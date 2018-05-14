@@ -43,7 +43,7 @@ function viewCart() {
   if (cartItems.length === 0 ) {
     console.log('Your shopping cart is empty.')
   } else if (cart.lenth === 1){
-    console.log(inCart + `${Object.keys(cart[0])} at ${Object.keys(cart[0])}.`)
+    console.log(inCart + `${Object.keys(cart[0])} at ${Object.keys(cart[0])}.`);
   }
 }
 
