@@ -47,6 +47,7 @@ function viewCart() {
     return('Your shopping cart is empty.');
   } else if (cart.length === 1){
     console.log(inCart + `${cart[0]['itemName']} at $${cart[0]['itemPrice']}.`);
+    //
     return(inCart + `${cart[0]['itemName']} at $${cart[0]['itemPrice']}.`);
   }
 }
